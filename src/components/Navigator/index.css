@@ -1,0 +1,87 @@
+.nav-section.dark {
+  background-color: black;
+}
+
+.nav-section.light {
+  background-color: white;
+}
+
+.nav-section .nav-component {
+  /* max-width: 1100px; */
+  margin: 0 auto;
+}
+
+.nav-section .nav-component.dark {
+  background-color: black;
+}
+
+.nav-section .nav-component.light {
+  background-color: white;
+}
+
+.nav-section .nav-component .dark {
+  background-color: black;
+  color: white;
+}
+
+.nav-section .nav-component .light {
+  background-color: white;
+  color: black;
+}
+
+.nav-link {
+  color: white;
+  opacity: 0.6;
+  outline: none;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  line-height: 1.5;
+  padding: 0.5rem 0.75rem;
+  position: relative;
+}
+
+.nav-link.active {
+  opacity: 1;
+}
+
+.nav-link.dark:hover {
+  color: white;
+  background-color: #999;
+}
+
+.navbar-menu.dark {
+  background-color: black;
+}
+
+.nav-link.light:hover {
+  color: black;
+  background-color: #666;
+}
+
+.navbar-menu.light {
+  background-color: white;
+}
+
+.nav-section {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+.nav-section .nav-component .customized-burger.dark {
+  color: white;
+}
+
+.nav-section .nav-component .customized-burger.light {
+  color: dark;
+}
+
+@media (min-width: 1088px) {
+  .nav-section .nav-component {
+    /* max-width: 1200px; */
+  }
+}
